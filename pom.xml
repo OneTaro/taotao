@@ -29,11 +29,11 @@
         <!-- 日志版本 -->
         <slf4j.version>1.6.4</slf4j.version>
         <!-- 处理json工具版本 -->
-        <jackson.version>2.4.2</jackson.version>
+        <jackson.version>2.8.11.1</jackson.version>
         <!-- 数据库连接池版本 -->
         <druid.version>1.0.9</druid.version>
         <!-- http协议客户端版本 -->
-        <httpclient.version>4.3.5</httpclient.version>
+        <httpclient.version>4.3.6</httpclient.version>
         <!-- jstl标签 -->
         <jstl.version>1.2</jstl.version>
         <servlet-api.version>2.5</servlet-api.version>
@@ -48,7 +48,7 @@
         <!-- sql编辑工具 -->
         <jsqlparser.version>0.9.1</jsqlparser.version>
         <!-- 文件上传 -->
-        <commons-fileupload.version>1.3.1</commons-fileupload.version>
+        <commons-fileupload.version>1.3.3</commons-fileupload.version>
         <!-- redis -->
         <jedis.version>2.7.2</jedis.version>
         <!-- 搜索引擎 -->
