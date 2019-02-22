@@ -29,7 +29,7 @@
         <!-- 日志版本 -->
         <slf4j.version>1.6.4</slf4j.version>
         <!-- 处理json工具版本 -->
-        <jackson.version>2.9.4</jackson.version>
+        <jackson.version>2.9.8</jackson.version>
         <!-- 数据库连接池版本 -->
         <druid.version>1.0.9</druid.version>
         <!-- http协议客户端版本 -->
