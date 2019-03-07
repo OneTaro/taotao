@@ -108,7 +108,23 @@
                     "v" : $.trim(tr.find("input").val())
                 });
             }
-            paramJson.pu
+            paramJson.push({
+                "group" : group,
+                "params" : ps
+            });
+        });
+
+        paramJson = JSON.stringify(paramJson);
+
+        $("#itemeEditForm [name=itemParams]").val(paramJson);
+
+        $.post("/rest/item/update", $("#itemeEditForm").serialize(), function (data) {
+           if (data.status == 200) {
+               $.messager.alert('提示', '修改商品成功!', 'info', function () {
+                   $("#itemEditWindow").window('close');
+                   $("#itemList").datagrid("reload");
+               });
+           }
         });
     }
 </script>
