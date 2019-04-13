@@ -1,7 +1,9 @@
 ##淘淘商城 
+
 * taotao-parent 父项目 pom 通用jar版本管理
 
 ###服务
+
 + dubbo服务
 + zookeeper服务
 + mybatis逆向工程
@@ -9,13 +11,16 @@
 + 分布式文件系统FastDFS
 
 ###项目启动操作
+
 + 启动虚拟机，打开zookeeper服务和dubbo-admin监听服务
 + 启动项目 taotao-manager、taotao-manager-web
 
 ###逆向工程  
+
 + 逆向工程生成的文件是单表查询
 
 ###常见问题
+
 问题一、java.lang.ClassNotFoundException: com.fasterxml.jackson.databind.exc.InvalidDefinitionException  
 原因：spring和jackson版本不匹配导致的。  
 解决：spring 5.0.6.RELEASE 和 jackson 2.9.4 匹配  
